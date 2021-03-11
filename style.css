@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @font-face {
+        font-family: Roboto;
+        src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    }
+    .logo{
+       
+        margin-left:auto;
+        margin-right: auto;
+        width:70%; 
+        margin-top:10px;
+        margin-bottom: 10px;       
+    }
+    .logoimg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+    .general{
+        
+    }
+    body{
+    
+    }
+    .searchbar{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        border:0.5px solid rgb(200,200,200);
+        border-radius: 25px;
+        box-shadow: black;
+        background-color: white;
+        overflow: hidden;
+        text-align: center;
+            }
+    .searchtab{
+        margin:auto;
+        display:inline-block;
+        height:35px;
+        width:85%;
+        border-color:transparent;   
+        font-size: 16px; 
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+    .searchtab:focus{
+        outline: none;
+    }
+    .buttonbar{
+        padding:10px;
+    }
+    .button{
+        width: fit-content;
+        font-size: 16px;
+        font-family:Roboto;
+        margin-top: 15px;
+        padding:15px 30px 15px 30px;
+        background-color: #f7f7f7;
+        color:#333333;
+        border:transparent;
+        border-radius: 15px;
+    }
+    #srch{
+        display:inline-block;
+        float: left;
+        margin-left: 12%;
+        
+    }
+    #lucky{
+        display:inline-block;
+        float:right;
+        margin-right: 12%;
+    }
