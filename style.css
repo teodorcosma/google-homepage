@@ -3,13 +3,35 @@
         font-family: Roboto;
         src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     }
+    header{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: end;
+        height:100%;
+        align-items: center;
+        padding:10px;
+    }
+    a{
+        padding:1em;
+        color:#333333;
+        text-decoration: none;
+
+    }
+    .profile-pic{
+        border-color:#333333;
+    }
+    a:visited{
+        text-decoration: none;
+        color:#333333;
+    }
+    
     .logo{
        
         margin-left:auto;
         margin-right: auto;
-        width:70%; 
-        margin-top:10px;
-        margin-bottom: 10px;       
+        width:100%; 
+        
+            
     }
     .logoimg{
         display: block;
@@ -19,10 +41,18 @@
 
     }
     .general{
-        
+        position:fixed;
+        margin:auto;
+        left:50%;
+        top:50%;
+        margin-top: -150px;
+        margin-left:-250px;
+        width: 500px;
+        height: 300px;
+
     }
     body{
-    
+        
     }
     .searchbar{
         width:100%;

@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .fa_custom {
+        color:rgb(23, 106, 230)
+        }
+    </style>
+    <title>Google</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <header>
-
-
+<a href="https://www.google.ro/imghp?hl=ro&ogbl">Images</a> 
+<a href="https://www.google.com/intl/ro/gmail/about/">Gmail</a>
 </header>
 
 <body>
@@ -13,13 +22,15 @@
 
 <div  class="logo">
     <img class="logoimg"  src="googlelogo_color_272x92dp.png">
-    <form>
+    <form id="form" role="search" action="https://google.com/search" target="_blank" type="GET">
         <div class="searchbar">
-            <input  class="searchtab" type="search" placeholder="Search">
+            <span class="iconify" data-icon="entypo-magnifying-glass" data-inline="false"></span>
+            <input  class="searchtab" type="search" placeholder="Search..." id="query" name="q" aria-label="search on google">
+            <i class="fa fa-microphone fa_custom" href="#"></i>
         </div>
         <div class="buttonbar">
-    <button class="button" id="srch">Google Search</button>
-    <button class="button" id="lucky">I'm Feeling Lucky</button>
+    <button class="button" id="srch" value="Go">Google Search</button>
+    <button class="button" id="lucky" value="Go">I'm Feeling Lucky</button>
         </div>  
     </form>
 
@@ -27,14 +38,8 @@
 
 </div>
 
-
-
-
-
-
 </body>
 
 <footer>
-
 
 </footer>
